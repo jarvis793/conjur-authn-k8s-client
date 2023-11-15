@@ -20,11 +20,11 @@ import (
 	"github.com/fullsailor/pkcs7"
 	"go.opentelemetry.io/otel"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/utils"
 	"github.com/cyberark/conjur-opentelemetry-tracer/pkg/trace"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/utils"
 )
 
 var oidExtensionSubjectAltName = asn1.ObjectIdentifier{2, 5, 29, 17}

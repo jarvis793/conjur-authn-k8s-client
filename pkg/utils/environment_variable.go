@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // GetEnvFunc is a function that returns a value for an environment variable

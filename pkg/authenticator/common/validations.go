@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // ReadFileFunc defines the interface for reading an SSL Certificate from the env

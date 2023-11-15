@@ -6,11 +6,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
 
-	jwtAuthenticator "github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/jwt"
-	k8sAuthenticator "github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/k8s"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	jwtAuthenticator "github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/jwt"
+	k8sAuthenticator "github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/k8s"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 const authnURLVarName string = "CONJUR_AUTHN_URL"

@@ -3,13 +3,14 @@ package common
 import (
 	"strings"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // Represents the username of the host that is authenticating with Conjur.
 // We separate the username into 2 parts:
 //   - Suffix: includes the host id
 //   - Prefix: includes the policy id (and the "host/" prefix)
+//
 // The separation above comes to support backwards compatibility of the username
 // that is sent to the server. Previously, only hosts under the
 // `conjur/authn-k8s/<service-id>/apps` policy branch were able to authenticate

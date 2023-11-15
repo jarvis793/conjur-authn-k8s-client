@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 	"github.com/stretchr/testify/assert"
 )
 

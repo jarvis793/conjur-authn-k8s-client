@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 type AccessToken struct {

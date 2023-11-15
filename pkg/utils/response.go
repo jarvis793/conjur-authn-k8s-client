@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // ReadResponseBody returns the response body

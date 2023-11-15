@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 	"strconv"
 	"time"
 )

@@ -6,7 +6,7 @@ import (
 
 	"github.com/cenkalti/backoff"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // statFunc type is defined so that the dependency 'os.Stat()'

@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token/memory"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/k8s"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token/memory"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/k8s"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 type assertFunc func(t *testing.T,

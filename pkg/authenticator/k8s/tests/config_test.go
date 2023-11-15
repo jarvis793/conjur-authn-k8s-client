@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/config"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/k8s"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/config"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/k8s"
 )
 
 var environmentValues = map[string]string{

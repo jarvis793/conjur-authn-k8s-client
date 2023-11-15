@@ -2,7 +2,7 @@ package authenticator
 
 import (
 	"context"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token"
 )
 
 type Authenticator interface {

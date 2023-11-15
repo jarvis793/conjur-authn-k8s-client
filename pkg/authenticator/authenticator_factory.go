@@ -2,12 +2,12 @@ package authenticator
 
 import (
 	"fmt"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token/file"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/config"
-	jwtAuthenticator "github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/jwt"
-	k8sAuthenticator "github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/k8s"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token/file"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/config"
+	jwtAuthenticator "github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/jwt"
+	k8sAuthenticator "github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/k8s"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // NewAuthenticator creates an instance of the Authenticator interface based on configured authenticator type.

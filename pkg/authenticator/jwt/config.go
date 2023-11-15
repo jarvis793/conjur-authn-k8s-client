@@ -3,7 +3,8 @@ package jwt
 import (
 	"time"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // Config defines the configuration parameters
@@ -63,6 +64,8 @@ func (config *Config) LoadConfig(settings map[string]string) {
 
 	if path, exists := settings["JWT_TOKEN_PATH"]; exists {
 		config.JWTTokenFilePath = path
+		log.Info(path)
+
 	}
 }
 

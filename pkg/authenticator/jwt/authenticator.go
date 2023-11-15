@@ -10,11 +10,11 @@ import (
 
 	"go.opentelemetry.io/otel"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/access_token"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/utils"
 	"github.com/cyberark/conjur-opentelemetry-tracer/pkg/trace"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/access_token"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/utils"
 )
 
 // Authenticator contains the configuration and client
@@ -146,6 +146,7 @@ func loadJWTToken(path string) (string, error) {
 		return "", fmt.Errorf(log.CAKC067, path)
 	}
 
+	log.Debug(log.CAKC077)
 	log.Debug(log.CAKC077)
 
 	return string(data), nil

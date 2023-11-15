@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/authenticator/common"
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/authenticator/common"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // Config defines the configuration parameters

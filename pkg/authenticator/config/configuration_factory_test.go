@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	logger "github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	logger "github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 	"github.com/stretchr/testify/assert"
 )
 

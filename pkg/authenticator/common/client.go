@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cyberark/conjur-authn-k8s-client/pkg/log"
+	"github.com/jarvis793/conjur-authn-k8s-client/pkg/log"
 )
 
 // NewHTTPSClient Returns https client to communicate with Conjur
